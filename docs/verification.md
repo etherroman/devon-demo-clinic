@@ -87,4 +87,4 @@ PASS owner=4 pet=5 visit=6: creation, lists, pagination, 409 restrict, 400 valid
 - 실제로 실행한 플랫폼은 Windows입니다. Linux/macOS 명령은 표준 Java/Maven 실행법이며 별도 OS 런타임 테스트는 하지 않았습니다.
 - H2와 로컬 HTTP를 검증했습니다. Docker, 운영 DB, 배포, 인증, 부하 테스트는 구현 범위에 없습니다.
 - 외부 유료 API와 인증 키를 사용하지 않았습니다. DB/로그/다운로드 캐시는 소스와 분리했습니다.
-- DevOn 원본 파일 변경, Git 초기화·커밋·푸시는 수행하지 않았습니다. GitHub 게시 이후 분석·매칭·면접 시나리오는 [devon-testing.md](devon-testing.md)에 분리했습니다.
+- DevOn 원본 파일은 변경하지 않았습니다. 로컬 검증 후 독립 Git 저장소로 커밋하고 테스트 계정의 Public 저장소에 push했습니다. API 확인 기록은 [publication.md](publication.md), 분석·매칭·면접 시나리오는 [devon-testing.md](devon-testing.md)에 정리했습니다.
