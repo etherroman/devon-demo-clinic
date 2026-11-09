@@ -28,6 +28,7 @@ src/main/resources/
   schema.sql                  # 빈 DB 생성과 FK RESTRICT
 src/test/java/dev/devon/clinic/ # 실제 Spring + H2 + MockMvc 통합 테스트
 docs/verification.md           # 실제 실행 결과
+docs/publication.md            # GitHub 게시와 API 수집 조건 판정
 scripts/smoke.ps1              # 실행 중인 HTTP 서버 확인
 ```
 
